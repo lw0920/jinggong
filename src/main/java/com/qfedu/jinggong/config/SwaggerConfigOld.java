@@ -16,7 +16,7 @@ import springfox.documentation.spring.web.plugins.Docket;
  *@Date Created in 2019/7/8 16:08
  */
 @Configuration
-public class SwaggerConfig {
+public class SwaggerConfigOld {
     private ApiInfo createAI(){
         return new ApiInfoBuilder().title("晶宫装饰有限公司").description("网上简介").version("1.0")
                 .contact(new Contact("Lw","http://1112","luwei@163.com")).build();
