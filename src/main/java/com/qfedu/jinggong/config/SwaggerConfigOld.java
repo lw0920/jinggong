@@ -21,9 +21,13 @@ public class SwaggerConfigOld {
         return new ApiInfoBuilder().title("晶宫装饰有限公司").description("网上简介").version("1.0")
                 .contact(new Contact("Lw","http://1112","luwei@163.com")).build();
     }
+    public void addAll(String naem){
+        int a = 1;
+    }
     @Bean
     public Docket createD(){
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(createAI()).select().apis
                 (RequestHandlerSelectors.basePackage("com.qfedu.jinggong.controller")).build();
     }
+
 }
