@@ -31,7 +31,6 @@ public class SwaggerConfigOld {
     public void addAll(String naem){
         int a = 1;
         int b =2;
-        int b =2;
     }
 
     public void addAllll(String naem){
